@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
-    <!-- Linking CSS file -->
     <link rel="stylesheet" href="styles.css">
-
 </head>
+
 <body>
+    <div class="container">
+        <div class="searchbox">
+        <img src="locationicon.png" alt="locationicon" width="46" height="48">
+            <input type="text" placeholder="Enter your Location">
+            <button type="submit"><img src="search-icon-png-9985.png" width="35.49" height="34.69"></button>
+        </div>
+    </div>
 
-    <h1>Greetings from PHP!</h1>
 
-    <?php
-        // PHP loop to generate a list
-        echo '<ul>';
-        for ($i = 1; $i <= 5; $i++) {
-            echo "<li>Item $i</li>";
-        }
-        echo '</ul>';
-    ?>
-
-    <!-- Linking JavaScript file -->
-    <script src="script.js"></script>
-
-</body>
 </html>
