@@ -13,11 +13,15 @@
 
 <body>
     <div class="container">
+        <div class=options>
+            <p>Options: New York, Tampa, London</p>
+        </div>
         <div class="searchbox">
             <img src="icon_location.png" alt="Location Icon" width="46" height="48">
             <!-- Change the action to forecast.php -->
             <form action="forecast_page.php" method="GET">
-                <input type="text" name="location" placeholder="Enter your Location">
+                
+                <input type="text" name="location" placeholder="Enter a city">
                 <button type="submit"><img src="icon_search.png" alt="Search Icon" width="35.49" height="34.69"></button>
             </form>
         </div>

@@ -24,6 +24,10 @@
                     $location = 'Tampa, US';
                     $locationId = 4174757;
                 }
+                if ($location == 'LONDON' || 'London' || 'london') {
+                    $location = 'London, GB';
+                    $locationId = 2643743;
+                }
                 $apiKey = '0805460c1840efe0edb9e46fbad71ace'; 
                 $url = "http://api.openweathermap.org/data/2.5/weather?id=$locationId&appid=$apiKey";
                 
