@@ -2,7 +2,7 @@
 if(isset($_GET['location'])) {
     $location = urlencode($_GET['location']);
     $apiKey = '0805460c1840efe0edb9e46fbad71ace'; 
-    $url = "http://api.openweathermap.org/data/2.5/weather?q=$location&appid=$apiKey";
+    $url = "http://api.openweathermap.org/data/2.5/weather?id=$location&appid=$apiKey";
     
     // Fetch weather data from OpenWeatherMap API
     $weather_data = file_get_contents($url);
