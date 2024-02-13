@@ -53,6 +53,10 @@
     font-size: 9px;
 }
 
+.forecast {
+    color:whitesmoke;
+}
+
 body {
     height:100vh;
     display: flex;
