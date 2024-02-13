@@ -14,11 +14,11 @@
 <body>
     <div class="container">
         <div class="searchbox">
-            <img src="locationicon.png" alt="locationicon" width="46" height="48">
+            <img src="icon_location.png" alt="Location Icon" width="46" height="48">
             <!-- Change the action to forecast.php -->
-            <form action="forecast.php" method="GET">
+            <form action="forecast_page.php" method="GET">
                 <input type="text" name="location" placeholder="Enter your Location">
-                <button type="submit"><img src="search-icon-png-9985.png" width="35.49" height="34.69"></button>
+                <button type="submit"><img src="icon_search.png" alt="Search Icon" width="35.49" height="34.69"></button>
             </form>
         </div>
     </div>
